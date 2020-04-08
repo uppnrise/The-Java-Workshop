@@ -29,14 +29,14 @@ public class Activity01 {
             case 2:
                 try {
                     issueFileException();
-                } catch (NullPointerException ne) {
+                } catch (NoSuchFileException ne) {
                     logger.log(Level.WARNING, "Exception happened", ne);
                 }
                 break;
             case 3:
                 try {
                     issueFileException();
-                } catch (NullPointerException ne) {
+                } catch (NoSuchFileException ne) {
                     logger.log(Level.INFO, "Exception happened", ne);
                 }
                 break;

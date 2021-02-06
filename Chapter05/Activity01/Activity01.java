@@ -29,15 +29,15 @@ public class Activity01 {
             case 2:
                 try {
                     issueFileException();
-                } catch (NoSuchFileException ne) {
-                    logger.log(Level.WARNING, "Exception happened", ne);
+                } catch (NoSuchFileException nsf) {
+                    logger.log(Level.WARNING, "Exception happened", nsf);
                 }
                 break;
             case 3:
                 try {
                     issueFileException();
-                } catch (NoSuchFileException ne) {
-                    logger.log(Level.INFO, "Exception happened", ne);
+                } catch (NoSuchFileException nsf) {
+                    logger.log(Level.INFO, "Exception happened", nsf);
                 }
                 break;
         }

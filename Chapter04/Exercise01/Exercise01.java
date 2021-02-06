@@ -1,16 +1,16 @@
 import java.util.*;
 import java.io.Console;
 
-public class Example01 {
+public class Exercise01 {
     public static void main(String[] args) {
-        ArrayList <String> text = new ArrayList<String>();
+        ArrayList <String> text = new ArrayList<>();
         Console cons;
         String line = "";
 
         while (!line.equals("*")
             && (cons = System.console()) != null
             && (line = cons.readLine()) != null) {
-                List<String> lineList = new ArrayList<String>(Arrays.asList(line.split(" ")));
+                List<String> lineList = new ArrayList<>(Arrays.asList(line.split(" ")));
             text.addAll(lineList);
         }
 
